@@ -1,5 +1,5 @@
-let nums: number = 153;
-let temp = nums;
+let num: number = 153;
+let temp = num;
 let sum = 0;
 
 while (temp > 0) {
@@ -8,7 +8,7 @@ while (temp > 0) {
     temp = Math.floor(temp / 10);
 }
 
-if (sum === nums)
-    console.log(nums + " is an Armstrong Number");
+if (sum === num)
+    console.log(num + " is an Armstrong Number");
 else
-    console.log(nums + " is Not an Armstrong Number");
+    console.log(num + " is Not an Armstrong Number");
